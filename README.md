@@ -64,6 +64,6 @@ pip install git+https://github.com/huggingface/peft.git -q
 </h2>
 
 <h2 align="center"> 
-    <img src="images/plot_dora_v_proj_1.jpg" width="600">
+    <img src="images/plot_dora_v_proj.jpg" width="600">
 </h2>
 
