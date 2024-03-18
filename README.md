@@ -8,6 +8,10 @@
 
 ## Reproducing results in the paper
 
+### I have written a detailed blog post for this repo: https://shreyassk.substack.com/p/visualising-dora-weight-decomposed
+
+This work is inspired from Sebastian Raschka's blog on DoRA - https://magazine.sebastianraschka.com/p/lora-and-dora-from-scratch
+
 This repository has the code to reproduce results of Llama-2-7B for Cleaned Alpaca Instruction Dataset task specified in research paper
 Checkpoints of LoRA and DoRA are stored at intermediate steps which are later used to visualize direction a
 nd magnitude updates of query and value weight matrices
@@ -90,4 +94,3 @@ accelerate launch --config_file=examples/accelerate_configs/deepspeed_zero1.yaml
 <h2 align="center"> 
     <img src="images/plot_dora_v_proj.jpg" width="600">
 </h2>
-
